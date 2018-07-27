@@ -1,0 +1,60 @@
+body{
+    background-image: url("img/a_hole_inside_3d-1680x1050.jpg");
+    background-size: cover;
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+form{
+    background-color: rgba(0,0,0,0.2);
+    text-align: center;
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: -20px;
+
+
+
+}
+::-webkit-input-placeholder{
+    color: black;
+    font-size: 16px;
+}
+.main form input{
+    width: 300px;
+    padding: 15px;
+    margin: 7px;
+    border: none;
+    outline: none   ;
+
+}
+.main form input[type="submit"]{
+    width: 334px;
+    font-size: 16px;
+    color: darkblue;
+    background: rgb(29,123,159);
+    border-radius: 10px;
+}
+.main form input[type="text"],
+.main form input[type="password"]{
+
+    font-size: 18px;
+    background:transparent ;
+    color: white;
+    border-bottom: 1.5px solid #1d7b9f;
+}
+.main form label{
+    font-size: 24px;
+    font-family:"Microsoft YaHei UI Light",sans-serif;
+    font-weight: bolder;
+    color: #1d7b9f;
+
+}
+.main img{
+    width: 70px;
+    height: 70px;
+    margin-left: 175px;
+}
+#signup{
+    text-decoration: none;
+}

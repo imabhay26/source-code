@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create new account</title>
+    <link rel="stylesheet" href="signup%20CSS.css">
+</head>
+<body>
+<div id="primary">
+    <img src="img/users.png">
+    <form onsubmit="return formSubmitted()" action="" name="vform">
+        <h2>Create new account</h2>
+        <table width="35%">
+
+            <tr>
+                <td>
+                    <input type="text" id="firstname" name="firstname" placeholder="First Name">
+                    <div id="firstName_error"></div>
+                </td>
+                <td>
+                    <input type="text" id="lastname" name="lastname" placeholder="Last Name">
+                    <div id="lastName_error"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="username" name="username" placeholder="Username">
+                    <div id="userName_error"></div>
+                </td>
+                <td>
+                    <input type="text" id="email" name="email" placeholder="Email">
+                    <div id="email_error"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="password" id="password" name="password" placeholder="Password">
+                    <div id="password_error"></div>
+                </td>
+                <td>
+                    <input type="password" id="confirmpassword" name="confirmpassword" placeholder="Confirm Password">
+                    <div id="confirmPassword_error"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="date" name="date" placeholder="Date Of Birth">
+                    <div id="date_error"></div>
+                </td>
+                <td>
+                    <input type="text" id="mobile" name="mobile" placeholder="Mobile Number">
+                    <div id="mobileNumber_error"></div>
+                </td>
+            </tr>
+
+        </table>
+        <table >
+            <tr>
+                <td>
+                    <input type="reset" value="Cancel">
+                </td>
+                <td>
+                    <input type="submit" name="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<script src="signupJS.js"></script>
+
+</body>
+</html>

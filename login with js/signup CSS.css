@@ -1,0 +1,64 @@
+
+/*------------CSS for Create2--------------*/
+
+body{
+    padding-left: 150px;
+    padding-top: 30px;
+    background-image: url("img/a_hole_inside_3d-1680x1050.jpg");
+    background-size: cover;
+}
+div form h2{
+
+    width: 490px;
+    text-align: center;
+    color: #1d7b9f;
+    padding: 20px;
+    margin-top: 0;
+    font-size: 24px;
+    font-family:"Microsoft YaHei UI Light",sans-serif;
+    font-weight: bolder;
+    border-radius: 3px;
+}
+div form{
+    width: 530px;
+    height: 450px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.2);
+    margin-top: -21px;
+    padding: 30px;
+}
+
+div form table{
+    margin-left: 20px;
+}
+div form table tr td input[type="text"],div form table tr td input[type="password"]{
+    padding: 5px;
+    margin: 8px;
+    width: 210px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1.5px solid #1d7b9f;
+    color: white;
+    font-size: 20px;
+
+}
+::-webkit-input-placeholder{
+    color: black;
+    font-size: 15px;
+}
+div form table tr td input[type="submit"],div form table tr td input[type="reset"] {
+    background-color: #1d7b9f;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 35px;
+    margin-top: 50px;
+    margin-left: 90px;
+    border-radius: 4px;
+}
+#primary img{
+    width: 70px;
+    height: 70px;
+    margin-left: 230px;
+}
